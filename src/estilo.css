@@ -1,0 +1,299 @@
+body{ 
+	background: #FFFAF0;
+	position:relative;
+}
+
+#wrap{ 	
+	margin:auto;
+	max-width: 1024px;
+	padding-left: 3%;
+	padding-right: 3%;
+	font-family: arial
+
+}
+
+.logo{
+	display: block;
+	margin: 40px auto 0 auto;
+}
+
+.menu{
+	text-align: center;
+	margin-top: 75px;	
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px ;
+	display: inline-flex;
+}
+
+li a:link {	
+	text-decoration: none;
+	color:black; 
+ 	padding: 20px;
+} 
+
+li a:visited{
+	color: #808080;
+	text-decoration: none;
+}
+li a:hover {
+    color:white;
+    background-color: #B22222;
+ } 
+
+
+/* REVIEWS */
+
+h2.title1{
+
+	font-size: 2em;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.poster1{
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	max-width: 25%;
+	float: left;
+}
+
+.sinopse1{
+	padding-top: 50px;
+	text-align: justify;
+	color: #363636;
+}
+
+.blockinter1{
+	border:1.5px dashed #808080;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 15px;
+	color: #808080;
+}
+
+h2.title2{
+
+	font-size: 2em;
+	margin-top: 150px;
+	text-align: center;
+}
+
+.poster2{
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	max-width: 25%;
+	float: left;
+}
+
+.sinopse2{
+	padding-top: 50px;
+	text-align: justify;
+}
+
+.blockinter2{
+	border:1.5px dashed #808080;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 15px;
+	color: #808080;
+}
+
+.summary{
+	height: 100px;
+	text-align: center;
+	margin-top: 66px;
+	font-size: 18px;
+
+}
+
+footer a{
+	text-decoration: none;
+	color: black;
+	width: 40px;
+	height: 20px;
+	margin:auto;
+	display: inline-block;
+}
+
+footer a:visited{
+	color: #808080;
+}
+
+footer a:hover {
+	color: #B22222;
+	font-size: 150%;
+}
+
+.footer{
+	width: 100%;
+	height: 40px;
+	background: #B22222;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 15px;
+	height:1px;
+}
+
+
+/*REVIEW PAGE 2*/
+
+h2.title3{
+	text-align: center;
+	font-size: 2em;
+	margin-top: 150px;
+}
+
+.poster3{
+	padding-top: 50px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	max-width: 25%;
+	float: left;
+}
+
+.sinopse3{
+	padding-top: 50px;
+	text-align: justify;
+}
+
+.blockinter3{
+	border:1.5px dashed #808080;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 15px;
+	color: #808080;
+}
+
+h2.title4{
+	text-align: center;
+	font-size: 2em;
+	margin-top: 150px;
+}
+
+.poster4{
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	max-width: 25%;
+	float: left;
+}
+
+.sinopse4{
+	padding-top: 50px;
+	text-align: justify;
+}
+
+.blockinter4{
+	border:1.5px dashed #808080;
+	border-radius: 5px;
+	margin-top: 50px;
+	padding: 15px;
+	color: #808080;
+}
+
+
+/* MOST ANTECIPED */
+
+.titlemost1{
+	padding-top: 100px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.jokerposter{
+	float: left;
+	max-width: 25%;
+	padding-right: 20px;
+}
+
+.titlemost2{
+	padding-top: 250px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.irishmanposter{
+	float: left;
+	max-width: 25%;
+	padding-right: 20px;
+}
+
+.titlemost3{
+	padding-top: 225px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.kingsmanposter{
+	float: left;
+	max-width: 25%;
+	padding-right: 20px;
+
+}
+
+.titlemost4{
+	padding-top: 225px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.avatarposter{
+	float: left;
+	max-width: 25%;
+	padding-right: 20px;
+}
+
+.footermost{
+	margin-bottom: 300px;
+}
+
+p a{
+	text-decoration: none;
+	color: #B22222
+}
+
+p a:hover{
+	color: #800000;
+}
+
+
+/* ABOUT ME */
+
+.whoami{
+	max-width: 720px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.mike{
+	max-width: 30%;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+.myfav{
+	max-width: 200px;
+	padding:22px 10px 0 10px; 
+	margin: auto;
+	background: #FF4500;
+}
+
+.favmovies h4{
+	padding-bottom: 20px;
+	color: white;
+}
+
+.favmovies{
+	text-align: center;
+	padding-bottom: 75px;
+}
+
